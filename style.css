@@ -1,0 +1,136 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html,body{
+    width: 100%;
+    height: 100%;
+}
+.page{
+    width: 100%;
+    height: 100vh;
+    background-color: antiquewhite;
+}
+.nav1{
+    width: 100%;
+    height: 6vh;
+    background-color: #fff;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.so{
+    font-size: 20px;
+}
+h5{
+    font-size: 15px;
+}
+.nav1>button{
+    padding: 10px 15px;
+    border-radius: 8px;
+    border: none;
+    background-color: rgb(131, 246, 246);
+    color: white;
+    font-weight: 600;
+}
+.nav2{
+    width: 100%;
+    height: 5vh;
+    background-color: aqua;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    /* clip-path: polygon(0 0, 100% 0, 70% 100%, 0% 100%); */
+}
+.nav2>ul{
+    display: flex;
+    justify-content:flex-end;
+    align-items: center;
+    list-style: none;
+    gap: 70px;
+    font-size: 18px;
+    padding-right: 6vw;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.nav3{
+    width: 30%;
+    height: 6vh;
+    background-color: white;
+    transform: translateY(-6vh);
+    clip-path: polygon(0 0, 100% 0, 70% 100%, 0% 100%);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.nav3>h2{
+    color:aqua ;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+.pic{
+    width: 100%;
+    height: 89vh;
+    background-color: aquamarine;
+    background-image: url(https://im.indiatimes.in/content/2023/Jul/happy-doctors-day1_649fbbb6a882d.jpg?w=1100&h=535&cc=1);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    transform: translateY(-6vh);
+}
+.box{
+    width: 30vw;
+    height: 30vh;
+    /* background-color: #d47171; */
+    margin-left: 100px;
+    transform: translateY(100px);
+}
+.box>h1{
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 40px;
+}
+.box>button{
+    padding: 10px 20px;
+    border: none;
+    font-size: 15px;
+    font-weight: 600;
+    border-radius: 5px;
+}
+.box>.con{
+    background-color: aqua;
+    color: white;
+}
+.app{
+    width: 50vw;
+    height: 10vh;
+    background-color: rgb(124, 124, 124) ;
+    margin:35vh 25vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+}
+.app>input{
+    padding: 10px 10px;
+    border-radius: 5px;
+}
+.app>::placeholder{
+    font-weight: 600;
+    color: black;
+}
+.app>.ri-map-pin-line{
+    transform: translateX(-2vw);
+    font-weight: 600;
+}
+.app>.ri-hospital-line{
+    transform: translateX(-2vw);
+    font-weight: 600;
+}
+.app>button{
+    padding: 10px 30px;
+    background-color: aqua;
+    border: none;
+    border-radius: 10px;
+    font-size: 15px;
+    font-weight: 600;
+}
